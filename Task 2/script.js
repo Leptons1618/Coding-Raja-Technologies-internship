@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['i-am-yours', 'lobachevsky', 'poisoning-pigeons', 'fly-me-to-the-moon'];
+const songs = ['i-m-yours', 'lobachevsky', 'poisoning-pigeons', 'fly-me-to-the-moon'];
 
 const volumeSlider = document.getElementById('volume-slider');
 
@@ -229,7 +229,7 @@ repeatBtn.addEventListener('click', function (e) {
     repeatBtn.innerHTML = '<i class="fas fa-redo"></i>';
   } else {
     audio.loop = true;
-    repeatBtn.innerHTML = '<i class="fas fa-redo-alt fa-flip-horizontal"></i>';
+    repeatBtn.innerHTML = '<i class="fas fa-redo-alt fa-rotate-90"></i>';
   }
 });
 
